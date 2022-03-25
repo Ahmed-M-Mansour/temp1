@@ -1,0 +1,43 @@
+/* The variables of the website */
+
+/* Global styles */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container{
+    padding: 0 15px 0 15px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 600px; 
+    background-color: #aaa; 
+}
+
+/* Small Screens*/
+@media(min-width:768px) {
+    .container{
+        width: 750px; 
+    }
+}
+
+/* Meduim Screens*/
+@media (min-width: 992px) {
+    .container{
+        width: 992px; 
+    }
+}
+/* Large Screens*/
+@media (min-width: 1200px) {
+    .container{
+        width: 1200px; 
+    }
+}
+
